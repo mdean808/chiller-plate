@@ -68,7 +68,18 @@ p {
 }
 
 .welcomeBlock {
+<<<<<<< HEAD
     padding: 0px 20px !important;
+=======
+  padding: 30px 50px !important;
+}
+
+.contentCont {
+  width: 100% !important;
+  margin-left:auto;
+  margin-right: auto;
+
+>>>>>>> 26b92551a58ce160c7d13b79a43a284c2b32d57e
 }
 
 .contentRow {
@@ -98,3 +109,25 @@ footer.page-footer {
 .card {
     min-height: 342px;
 }
+
+svg {
+  width: 80px;
+  height: 80px;
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
