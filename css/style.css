@@ -6,9 +6,31 @@
  * Made By MaterializeCSS.com
  */
 
+ html {
+  font-family: 'Montserrat';
+  background: url(../images/background.JPEG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+
+nav {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+}
+
+.header-stuff {
+  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 50%;
+  position: absolute;
 }
 
 p {
@@ -23,26 +45,37 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
+/*  .parallax-container .section {
     position: absolute;
     top: 40%;
-  }
-  #index-banner .section {
+  }*/
+/*  #index-banner .section {
     top: 10%;
-  }
+  }*/
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
+/*  #index-banner .section {
     top: 0;
-  }
+  }*/
+}
+
+.welcomeBlock {
+  padding: 0px 20px !important;
+}
+
+.contentRow {
+    margin-top: 100vh;
+}
+
+#index-banner {
+  height: 200vh;
 }
 
 .icon-block {
