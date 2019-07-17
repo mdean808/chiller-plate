@@ -67,7 +67,12 @@ p {
 }
 
 .welcomeBlock {
-  padding: 0px 20px !important;
+  padding: 30px 50px !important;
+}
+
+.contentCont {
+  width: 100% !important;
+  margin-left:40px;
 }
 
 .contentRow {
@@ -95,4 +100,9 @@ footer.page-footer {
 
 .card {
   min-height: 342px;
+}
+
+svg {
+  width: 80px;
+  height: 80px;
 }
