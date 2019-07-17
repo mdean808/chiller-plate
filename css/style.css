@@ -6,68 +6,69 @@
  * Made By MaterializeCSS.com
  */
 
- html {
-  font-family: 'Montserrat';
-  background: url(../images/background.JPEG) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
+html {
+    font-family: 'Montserrat', sans-serif !important;
+    background: url(../images/background.JPEG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 nav {
-  background-color: rgba(0,0,0,0);
-  box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
 }
 
 .header-stuff {
-  transform: translate(-50%, -50%);
-  top: 25%;
-  left: 50%;
-  position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    position: absolute;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-/*  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }*/
-/*  #index-banner .section {
-    top: 10%;
-  }*/
 }
 
-@media only screen and (max-width : 600px) {
-/*  #index-banner .section {
-    top: 0;
-  }*/
+@media only screen and (max-width: 992px) {
+    /*  .parallax-container .section {
+        position: absolute;
+        top: 40%;
+      }*/
+    /*  #index-banner .section {
+        top: 10%;
+      }*/
+}
+
+@media only screen and (max-width: 600px) {
+    /*  #index-banner .section {
+        top: 0;
+      }*/
 }
 
 .welcomeBlock {
-  padding: 0px 20px !important;
+    padding: 0px 20px !important;
 }
 
 .contentRow {
@@ -75,24 +76,25 @@ p {
 }
 
 #index-banner {
-  height: 200vh;
+    height: 200vh;
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
 
 .productContainer {
-  margin: 50px auto;
+    margin: 50px auto;
 }
 
 .card {
-  min-height: 342px;
+    min-height: 342px;
 }
