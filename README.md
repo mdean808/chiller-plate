@@ -1,6 +1,7 @@
 # Chiller Plate
 The Chillest MVP Boilerplate
-Complete Instructions available at [this doc](https://docs.google.com/document/d/1YktEmpYuWMJME_lO-wYbT5VNGavKJ8tKa7h8WyJpk_M/edit?usp=sharing).
+
+Complete instructions available at [this doc](https://docs.google.com/document/d/1YktEmpYuWMJME_lO-wYbT5VNGavKJ8tKa7h8WyJpk_M/edit?usp=sharing).
 
 # Customizing the ChillerPlate
 
