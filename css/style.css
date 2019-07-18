@@ -68,9 +68,6 @@ p {
 }
 
 .welcomeBlock {
-<<<<<<< HEAD
-    padding: 0px 20px !important;
-=======
   padding: 30px 50px !important;
 }
 
@@ -78,8 +75,6 @@ p {
   width: 100% !important;
   margin-left:auto;
   margin-right: auto;
-
->>>>>>> 26b92551a58ce160c7d13b79a43a284c2b32d57e
 }
 
 .contentRow {
