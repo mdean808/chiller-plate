@@ -1,4 +1,4 @@
-const G_TRACKING_ID = 'google tracking id';
+const G_TRACKING_ID = 'UA-143960290-1';
 
 (function($){
   $(function(){
