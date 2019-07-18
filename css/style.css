@@ -69,6 +69,7 @@ p {
 
 .welcomeBlock {
   padding: 30px 50px !important;
+  margin: 40px !important;
 }
 
 .contentCont {
@@ -189,3 +190,9 @@ svg {
     position: absolute;
     bottom: -30px;
   }
+
+  .welcomeBlock {
+    position: absolute;
+    margin: 0px !important;
+  }
+}  
